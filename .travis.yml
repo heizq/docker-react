@@ -1,0 +1,7 @@
+sudo: required
+
+services:
+  - docker
+
+before_instal:
+  - docker build -t psvp123/docker-react -f Dockerfile.dev .
